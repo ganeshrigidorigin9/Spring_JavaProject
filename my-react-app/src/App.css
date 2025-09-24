@@ -1,0 +1,35 @@
+.page-button-container {
+  margin-left:535px;
+}
+
+.page-btn {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.page-btn-view {
+  background-color: #007bff;
+}
+
+.page-btn-view:hover {
+  background-color: #0056b3;
+}
+
+.page-btn-manage {
+  background-color: #28a745;
+}
+
+.page-btn-manage:hover {
+  background-color: #1e7e34;
+}
+
+/* Remove margin-right from last button */
+.page-btn-manage {
+  margin-right: 0;
+}

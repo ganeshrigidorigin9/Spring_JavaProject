@@ -1,0 +1,73 @@
+/* HomePage.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  min-height: 80vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.home-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 3rem;
+  color: #555;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav-btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+  display
+<<<<<<< HEAD
+ }
+
+.top-bar {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color:black;            /* so text is visible */
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.logout{
+  position: absolute;
+  top:40px;
+  right:30px;
+  background: none;       /* remove button background */
+  border: none;           /* remove border */
+  color:black;            /* so text is visible */
+  font-size: 16px;
+  cursor: pointer;        /* make it look clickable */
+}
+
+
+=======
+>>>>>>> 92526cd351ab41b830ff39762f4b857c28c67568
